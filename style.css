@@ -128,8 +128,8 @@ header .navbar ul li a:hover {
 
 #menu {
   position: fixed;
-  top:2rem;
-  right:2rem;
+  top: 2rem;
+  right: 2rem;
   background: #333;
   color: #fff;
   cursor: pointer;
@@ -149,6 +149,7 @@ header .navbar ul li a:hover {
 .home h3 {
   font-size: 2.5rem;
   color: #fff;
+
 }
 
 .home h1 {
@@ -194,22 +195,66 @@ header .navbar ul li a:hover {
   padding-left: 6rem;
   color: #eee;
   font-size: 2rem;
+}
+
+.about .row .counter {
+  flex: 1 1 48rem;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*.heading1 {
+  text-align: center;
+  margin: 2rem;
+  margin-right: 20rem;
+  margin-bottom: 25rem;
+  font-size: 4rem;
+  padding: 2rem;
+  border-bottom: .1rem soild #fff4;
+  color: yellow;
+}
+
+h2 {
+  margin-right: 13rem;
+  margin-bottom: 1rem;
+  color: #eee;
+  font-size: 2rem;
+}*/
+
+
+about .row .info h3 {
+  font-size: 4rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: normal;
+
 
 }
 
-/* about .row .info h3{
-    font-size: 4rem;
-    color: var(--yellow);
-    padding: 1rem 0;
-    font-weight: normal;
- 
-  }
-  about .row .info h3 span{
-    color: #eee;
-    padding: 0 5rem;
-    text-align: center;
-   
-  } */
+about .row .info h3 span {
+  color: #eee;
+  padding: 0 5rem;
+  text-align: center;
+
+}
+
+.headline {
+  color: #f9ca24;
+  font-size: 4rem;
+   margin-bottom: 3rem;
+}
+
+.title h3 {
+  padding-right: 25rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #eee;
+}
+
+
+
 .education .box-container {
   display: flex;
   align-items: center;
@@ -267,8 +312,8 @@ header .navbar ul li a:hover {
 }
 
 .Protfolio .box-container .box {
-  height: 20rem;
-  width: 26rem;
+  height: 30rem;
+  width: 36rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
@@ -366,7 +411,8 @@ header .navbar ul li a:hover {
   html {
     font-size: 55%;
   }
-  #first{
+
+  #first {
     visibility: hidden;
   }
 
@@ -391,7 +437,8 @@ header .navbar ul li a:hover {
   body {
     padding: 0;
   }
-  #first{
+
+  #first {
     visibility: hidden;
   }
 
@@ -401,7 +448,8 @@ header .navbar ul li a:hover {
   html {
     font-size: 50%;
   }
-  #first{
+
+  #first {
     visibility: hidden;
   }
 
@@ -434,7 +482,8 @@ header .navbar ul li a:hover {
   .contact .row form {
     margin: 3rem 0;
   }
-  #first{
+
+  #first {
     visibility: hidden;
   }
 }
